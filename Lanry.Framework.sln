@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.DataAccess", "Lanry.DataAccess\Lanry.DataAccess.csproj", "{4CBDA6CE-B189-4E93-82B8-6230D37280AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0} = {626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.Utility", "Lanry.Utility\Lanry.Utility.csproj", "{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.Web", "Lanry.Web\Lanry.Web.csproj", "{B940328F-2062-4AFD-9411-2936F6D1BF83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0} = {626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.Framework", "Lanry.Framework\Lanry.Framework.csproj", "{BDC1B701-0C47-44C2-8DB8-B3371962318C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C641516-31AE-4588-939C-791DAF4F1257} = {3C641516-31AE-4588-939C-791DAF4F1257}
+		{B940328F-2062-4AFD-9411-2936F6D1BF83} = {B940328F-2062-4AFD-9411-2936F6D1BF83}
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0} = {626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}
+		{4CBDA6CE-B189-4E93-82B8-6230D37280AC} = {4CBDA6CE-B189-4E93-82B8-6230D37280AC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.Model", "Lanry.Model\Lanry.Model.csproj", "{1688E1B2-3FC0-4C24-8601-AC2335366F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.Facade", "Lanry.Facade\Lanry.Facade.csproj", "{3C641516-31AE-4588-939C-791DAF4F1257}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C17696B-463C-4B7B-A419-F52F302AB14A} = {0C17696B-463C-4B7B-A419-F52F302AB14A}
+		{1688E1B2-3FC0-4C24-8601-AC2335366F31} = {1688E1B2-3FC0-4C24-8601-AC2335366F31}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanry.Repository", "Lanry.Repository\Lanry.Repository.csproj", "{0C17696B-463C-4B7B-A419-F52F302AB14A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1688E1B2-3FC0-4C24-8601-AC2335366F31} = {1688E1B2-3FC0-4C24-8601-AC2335366F31}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CBDA6CE-B189-4E93-82B8-6230D37280AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBDA6CE-B189-4E93-82B8-6230D37280AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBDA6CE-B189-4E93-82B8-6230D37280AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBDA6CE-B189-4E93-82B8-6230D37280AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626CE3A8-F1C0-4EED-BC4B-84EC3C8EF3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B940328F-2062-4AFD-9411-2936F6D1BF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B940328F-2062-4AFD-9411-2936F6D1BF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B940328F-2062-4AFD-9411-2936F6D1BF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B940328F-2062-4AFD-9411-2936F6D1BF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC1B701-0C47-44C2-8DB8-B3371962318C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC1B701-0C47-44C2-8DB8-B3371962318C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC1B701-0C47-44C2-8DB8-B3371962318C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC1B701-0C47-44C2-8DB8-B3371962318C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1688E1B2-3FC0-4C24-8601-AC2335366F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1688E1B2-3FC0-4C24-8601-AC2335366F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1688E1B2-3FC0-4C24-8601-AC2335366F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1688E1B2-3FC0-4C24-8601-AC2335366F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C641516-31AE-4588-939C-791DAF4F1257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C641516-31AE-4588-939C-791DAF4F1257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C641516-31AE-4588-939C-791DAF4F1257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C641516-31AE-4588-939C-791DAF4F1257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C17696B-463C-4B7B-A419-F52F302AB14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C17696B-463C-4B7B-A419-F52F302AB14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C17696B-463C-4B7B-A419-F52F302AB14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C17696B-463C-4B7B-A419-F52F302AB14A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

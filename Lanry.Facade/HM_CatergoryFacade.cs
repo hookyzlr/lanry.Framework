@@ -19,5 +19,10 @@ namespace Lanry.Facade
         {
             return CatergoryRepository.Save(en);
         }
+        
+        public static int Update(TB1 en)
+        {
+            return CatergoryRepository.Update(en);
+        }
     }
 }

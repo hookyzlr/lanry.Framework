@@ -22,5 +22,11 @@ namespace Lanry.Repository
         {
             return SqlQueryCache.Localhost.Insert(en);
         }
+
+        public static int Update(TB1 en)
+        {
+            SqlWhere where = new SqlWhere("ID", en.ID);
+            return SqlQueryCache.Localhost.Update(en, where);
+        }
     }
 }

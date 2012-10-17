@@ -6,14 +6,14 @@ using Lanry.Utility;
 
 namespace Lanry.Model
 {
-    [Table("HM_Category")]
-    public class HM_Category
+    [Table("TB1")]
+    public class TB1
     {
-        [PropertyAttibute(PropertyName="CategoryID",IsIdentity=true,IsPrimaryKey=true)]
-        public int CategoryID { set; get; }
+        [PropertyAttibute(PropertyName="ID",IsIdentity=true,IsPrimaryKey=true)]
+        public int ID { set; get; }
 
-        [PropertyAttibute(PropertyName = "CategoryName")]
-        public string CategoryName { set; get; }
+        [PropertyAttibute(PropertyName = "Name")]
+        public string Name { set; get; }
 
         [PropertyAttibute(PropertyName = "ParentID")]
         public int ParentID { set; get; }

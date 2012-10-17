@@ -10,14 +10,17 @@ namespace Lanry.Repository
 {
     public static class CatergoryRepository
     {
-        public static DataList<HM_Category> GetCatergory()
+        public static DataList<TB1> GetTestData()
         {
-            SqlTable table = new SqlTable("HM_Category");
-            table.InnerJoin("HM_Article", "CategoryID", "CategoryID");
+            SqlTable table = new SqlTable("TB1");
             
             SqlSelect select = new SqlSelect();
-            select.OrderBy("LastModifyDate", SqlSortType.ASC);
-            return SqlQueryCache.Localhost.SelectList<HM_Category>(table, select);
+            return SqlQueryCache.Localhost.SelectList<TB1>(table, select);
+        }
+
+        public static int Save(TB1 en)
+        {
+            return SqlQueryCache.Localhost.Insert(en);
         }
     }
 }

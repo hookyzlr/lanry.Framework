@@ -14,15 +14,21 @@ namespace Lanry.Framework
         [NonAction]
         public ActionResult Index()
         {
-            
+
             ViewBag.Message = "欢迎使用 ASP.NET MVC!";
             return View();
         }
 
         public ActionResult Index(int id)
         {
+            TB1 entity = new TB1();
+            entity.Name = "1";
+            entity.ParentID = 1;
+            HM_CatergoryFacade.Save(entity);
+            DataList<TB1> list = HM_CatergoryFacade.GetTestData();
+
             ViewBag.Message = "欢迎使用 ASP.NET MVC!";
-            return View();
+            return View(list);
         }
 
         public ActionResult About(string id,string name)

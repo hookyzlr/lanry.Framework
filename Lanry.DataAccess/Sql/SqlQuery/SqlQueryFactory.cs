@@ -10,7 +10,7 @@ namespace Lanry.DataAccess
     /// <summary>
     /// 代理类
     /// </summary>
-    public static class SqlQueryFactory
+    internal class SqlQueryFactory
     {
         /// <summary>
         /// 创建数据库操作类

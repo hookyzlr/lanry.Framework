@@ -10,9 +10,14 @@ namespace Lanry.Facade
 {
     public static class HM_CatergoryFacade
     {
-        public static DataList<HM_Category> GetCatergory()
+        public static DataList<TB1> GetTestData()
         {
-            return CatergoryRepository.GetCatergory();
+            return CatergoryRepository.GetTestData();
+        }
+
+        public static int Save(TB1 en)
+        {
+            return CatergoryRepository.Save(en);
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Hosting.exe
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Hosting.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Contracts.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Services.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Contracts.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Services.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\obj\x86\Debug\Hosting.exe
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\obj\x86\Debug\Hosting.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Hosting\bin\Debug\Hosting.exe.config

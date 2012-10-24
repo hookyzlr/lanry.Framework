@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\bin\Debug\Services.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\bin\Debug\Services.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\obj\Debug\Services.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\obj\Debug\Services.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\bin\Debug\Contracts.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\bin\Debug\Contracts.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Services\bin\Debug\Services.dll.config

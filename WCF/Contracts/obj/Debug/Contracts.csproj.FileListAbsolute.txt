@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Contracts\bin\Debug\Contracts.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Contracts\bin\Debug\Contracts.pdb
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Contracts\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Contracts\obj\Debug\Contracts.dll
+C:\Users\Administrator\Desktop\WCF_Test\MCF_Test\Contracts\obj\Debug\Contracts.pdb

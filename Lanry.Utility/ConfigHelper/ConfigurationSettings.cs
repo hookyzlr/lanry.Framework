@@ -21,7 +21,7 @@ namespace Lanry.Utility
             where T : ElementInfomation,new()
         {
             ConfigurationBroker<T>.Load("DataBase.config");
-            return ConfigurationBroker<T>.GetSection("configuration/" + sectionName);
+            return ConfigurationBroker<T>.GetSection(sectionName);
         }
     }
 

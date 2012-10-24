@@ -11,7 +11,7 @@ namespace Lanry.DataAccess
     public enum SqlJoinType
     {
         /// <summary>
-        /// 做连接
+        /// 左连接
         /// </summary>
         LeftJoin,
         /// <summary>

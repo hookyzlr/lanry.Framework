@@ -11,7 +11,7 @@ namespace Lanry.DataAccess
     /// <summary>
     /// SqlServer
     /// </summary>
-    public class SqlServerProvider : ISqlQuery
+    internal class SqlServerProvider : ISqlQuery
     {
         private string ConnectionString { set; get; }
 
@@ -429,7 +429,7 @@ namespace Lanry.DataAccess
                 cmd.Parameters.AddWithValue("@" + kvp.Key, kvp.Value);
             }
 
-            sqlBuilder.AppendFormat("INSERT INTO {0}({1}) VALUES({2})", table.TableName.Replace(" with(nolock)", ""), string.Join(",", fields), string.Join(",", values));
+            sqlBuilder.AppendFormat("INSERT INTO {0}({1}) VALUES({2})", table.TableName.Replace("L with(nolock)", ""), string.Join(",", fields), string.Join(",", values));
             if (returnID) sqlBuilder.Append(" SELECT  SCOPE_IDENTITY();");
             cmd.CommandText = sqlBuilder.ToString();
             
@@ -448,7 +448,7 @@ namespace Lanry.DataAccess
             StringBuilder sqlBuilder = new StringBuilder();
             SqlCommand cmd = CreateCommand(CommandType.Text, beginTranscation);
 
-            sqlBuilder.Append("DELETE FROM ").Append(table.TableName.Replace(" with(nolock)", ""));
+            sqlBuilder.Append("DELETE FROM ").Append(table.TableName.Replace("L with(nolock)", ""));
 
             if (where != null && where.List.Count != 0)
             {
@@ -493,7 +493,7 @@ namespace Lanry.DataAccess
             }
             else
             {
-                sqlBuilder.Append("UPDATE ").Append(table.TableName.Replace(" with(nolock)","")).Append(" SET ").Append(fieldsBuilder);
+                sqlBuilder.Append("UPDATE ").Append(table.TableName.Replace("L with(nolock)", "")).Append(" SET ").Append(fieldsBuilder);
             }
             if (where != null && where.List.Count != 0)
             {

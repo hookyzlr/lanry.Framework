@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlCache\SqlQueryCache.cs" />
     <Compile Include="Sql\Common\ProcedureName.cs" />
     <Compile Include="Sql\Common\SqlDataType.cs" />
     <Compile Include="Sql\Common\SqlJoinType.cs" />

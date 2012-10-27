@@ -11,7 +11,7 @@ namespace Lanry.Facade
     public static class HM_CatergoryFacade
     {
         /// <summary>
-        /// 获取测试数据
+        /// 获取测试数据1
         /// </summary>
         /// <returns></returns>
         public static DataList<TB1> GetTestData()
